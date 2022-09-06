@@ -5,10 +5,12 @@
   box-sizing: border-box;
 }
 
-.debug {
-  border: 1px solid black; /*da cancellare*/
-  min-height: 100px;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #ffffff;
@@ -47,7 +49,9 @@ h1 {
 .buttons {
   padding: 20px 20px;
 }
-
+.arrow {
+  padding-right: 6px;
+}
 .btn2 {
   margin-left: 15px;
   background-color: #23272a;
@@ -150,6 +154,9 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+.stars {
+  margin: 0 -35px;
+}
 .titolo-download {
   font-size: 28px;
 }
@@ -167,6 +174,7 @@ h2 {
 .footer {
   max-width: 1170px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 #titolo-footer {
   font-size: 24px;
@@ -175,6 +183,7 @@ h2 {
   padding-bottom: 15px;
 }
 .col {
+  /*COLONNE*/
   padding-top: 50px;
   display: flex;
   justify-content: space-around;
@@ -212,4 +221,19 @@ li {
 .title {
   color: #6c82cf;
   padding-bottom: 10px;
+}
+
+/* INIZIO FONDO FOOTER */
+
+.down-footer {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.logo-footer {
+  max-width: 1170px;
+  float: left;
+}
+
+.footer-btn {
+  float: right;
 }
