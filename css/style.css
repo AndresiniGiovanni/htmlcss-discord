@@ -160,3 +160,56 @@ h2 {
   align-items: flex-end;
   margin-bottom: 80px;
 }
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+.footer {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+#titolo-footer {
+  font-size: 24px;
+  color: #6c82cf;
+  max-width: 200px;
+  padding-bottom: 15px;
+}
+.col {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.prima-lista {
+  width: calc((100% / 6) * 2);
+}
+.list {
+  width: calc(100% / 6);
+}
+
+li {
+  padding: 6px 0;
+}
+
+.italia {
+  max-width: 20px;
+  float: left;
+}
+
+.italiano {
+  float: left;
+  padding-left: 3px;
+}
+
+.twitter,
+.instagram,
+.facebook,
+.youtube {
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.title {
+  color: #6c82cf;
+  padding-bottom: 10px;
+}
